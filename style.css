@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+body {
+  font-family: "Roboto", "San Francisco", helvetica, arial, sans-serif;
+  background-color: black;
+}
+body .navbar {
+  background-color: #0e0d10 !important;
+}
+
+img {
+  height: 100% !important;
+  object-fit: cover !important;
+}
+
+.card {
+  background-color: #1b191f87 !important;
+}
+.card h5 {
+  color: var(--blue);
+}
+
+/*# sourceMappingURL=style.css.map */
