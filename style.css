@@ -1,10 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap");
 body {
   font-family: "Roboto", "San Francisco", helvetica, arial, sans-serif;
   background-color: black;
 }
 body .navbar {
   background-color: #0e0d10 !important;
+  filter: sepia(1);
 }
 
 img {
@@ -17,6 +19,24 @@ img {
 }
 .card h5 {
   color: var(--blue);
+}
+
+.title {
+  text-transform: uppercase;
+  letter-spacing: 25px;
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+  color: white;
+}
+
+.card {
+  cursor: pointer;
+  filter: sepia(1);
+  transition: all 0.1s ease-in-out;
+}
+.card:hover {
+  transform: translateY(-10px);
+  filter: sepia(0);
 }
 
 /*# sourceMappingURL=style.css.map */

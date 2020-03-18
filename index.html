@@ -7,19 +7,20 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
     integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
   <link rel="stylesheet" href="style.css">
-  <title>KinoMatters</title>
+  <title>KINOTOP</title>
 </head>
 
 <body>
   <header>
-    <nav class="navbar navbar-dark bg-dark mb-5">
+    <nav class="navbar navbar-dark bg-dark p-3">
       <a class="navbar-brand m-auto text-primary" style="font-family: 'Lobster', cursive;" href="#">
-        <h1 class="display-4">KinoMatters🍿</h1>
+        <h3 class="title">Kinotop</h3>
+        <!-- 🍿 -->
       </a>
     </nav>
   </header>
   <div class="container">
-    <div id="card-columns" class="card-columns">
+    <div id="card-columns" class="card-columns my-5">
       <div class="card">
         <img src="https://cdn.hbogo.eu/images/FE8A11E3-A9BC-4EAD-8130-49B16F796542/1280_720.jpg" class="card-img-top"
           alt="...">
@@ -188,6 +189,10 @@
         </div>
       </div>
 
+      <div class="card bg-primary text-white text-center p-3">
+          <span class="display-4">🍿</span>
+      </div>
+
       
 
 
@@ -203,13 +208,13 @@
       integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
       crossorigin="anonymous"></script>
       <script>
-        // $(function () {
-        //   var parent = $(".card-columns");
-        //   var divs = parent.children();
-        //   while (divs.length) {
-        //     parent.append(divs.splice(Math.floor(Math.random() * divs.length), 1)[0]);
-        //   }
-        // });
+        $(function () {
+          var parent = $(".card-columns");
+          var divs = parent.children();
+          while (divs.length) {
+            parent.append(divs.splice(Math.floor(Math.random() * divs.length), 1)[0]);
+          }
+        });
       </script>
 </body>
 
